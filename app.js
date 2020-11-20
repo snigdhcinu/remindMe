@@ -40,10 +40,10 @@ app.get('/',(req,res) => {
 	res.send('hello world')
 })
 
-app.get('/login',() =>{
-
+app.get('/login',(req,res) =>{
+	res.render('login')
 })
-app.post('/login',() =>{
+app.post('/login',(req,res) =>{
 
 })
 
